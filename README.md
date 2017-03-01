@@ -25,7 +25,7 @@ sudo docker-compose build
 
 Start all containers
 ```
-sudo docker-compose up
+sudo docker-compose up -d
 ```
 Check containers status
 ```
