@@ -18,17 +18,25 @@ Vagrant installed
 
 #How to use docker-compose?
 
-1) Download Image and create Image
+Download Image and create Image
 ```
 sudo docker-compose build
 ```
 
-2) Start all containers
+Start all containers
 ```
 sudo docker-compose up
 ```
-
-3) Access to dashboard
+Check containers status
+```
+sudo docker-compose ps
+```
+Access to dashboard
 ```
 http://localhost/8500/ui
 ```
+Stop and remove all containers
+```
+sudo docker-compose stop && sudo docker-compose rm
+```
+
